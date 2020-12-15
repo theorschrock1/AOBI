@@ -17,3 +17,5 @@ Imports:
     sDataTable,
     exprTools,
     AOunits
+URL: https://github.com/theorschrock1/AOBI
+BugReports: https://github.com/theorschrock1/AOBI/issues
