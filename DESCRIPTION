@@ -1,7 +1,7 @@
 Package: AOBI
 Type: Package
 Title: AO Business Intelligence
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Author: Theo Schrock
 Maintainer: <theorschrock@gmail.com>
 Description: Business intelligence and data visualization.
@@ -16,6 +16,16 @@ Imports:
     rlang,
     sDataTable,
     exprTools,
-    AOunits
+    AOunits,
+    shiny,
+    htmltools,
+    ShinyReboot,
+    bslib,
+    shinyAce,
+    shinyjs,
+    zeallot,
+    data.table,
+    R6
 URL: https://github.com/theorschrock1/AOBI
 BugReports: https://github.com/theorschrock1/AOBI/issues
+RoxygenNote: 7.1.1

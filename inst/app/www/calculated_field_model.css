@@ -1,0 +1,68 @@
+.var-btn{
+    border:.9px solid #8c8c8c;
+    font-size:11px;
+  }
+.var-btn.form-control{
+    border:none;
+    font-size:11px;
+}
+
+.var_invalid{
+text-decoration:underline;
+}
+
+.code_invalid{
+
+}
+.code_valid{
+
+}
+.validation-message{
+  font-size:8px;
+}
+.invalid-message{
+ color:red;
+}
+.valid-message{
+ color: #17B066;
+}
+.ace_editor{
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+.v-none{
+  visibility:hidden;
+}
+
+.var_invalid{
+text-decoration:underline;
+}
+.ace_dimension{
+color:#212121;
+padding:0 0px;
+background:rgba(96, 224, 107, 0.26) ;
+border-radius:2.5px;
+
+}
+
+.ace_string,.ace-tm .ace_string{
+color:#e8720c ;
+
+}
+.ace_measure{
+color:#212121;
+padding:0 0px;
+background:rgba(96, 122, 224, 0.26);
+border-radius:2.5px;
+
+}
+.ace_assignment{
+color:#c7581c;
+}
+
+
+
+.ace_function {
+color:red !important ;
+
+}

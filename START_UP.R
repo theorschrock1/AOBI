@@ -5,12 +5,12 @@ library(sDevTools)
 
 # Package metadata
 
-fill_description(pkg_name = "AOBI", pkg_title = "PKG_TITLE", pkg_description = "The package description.", 
+fill_description(pkg_name = "AOBI", pkg_title = "AO Business Intelligence", pkg_description = "Business intelligence and data visualization.",
     author_first_name = "Theo", author_last_name = "Schrock", author_email = "<theorschrock@gmail.com>")
 
 # Package dependencies (IMPORTS)
 
-imports <- c("sUtils", "glue", "stringr", "checkmate", "rlang")
+imports <- c("sUtils", "glue", "stringr", "checkmate", "rlang","sDataTable","exprTools","AOunits")
 sDevTools::import_pkg(imports)
 
 # Use Git and create a Github repo
@@ -23,7 +23,7 @@ initializeTestthat(test_deps = c("checkmate"))
 
 # Initialize a shiny package if this is a shiny app
 
-is_shiny_app = FALSE
+is_shiny_app = TRUE
 
 if (is_shiny_app) initializeShinyPackage("AOBI")
 
